@@ -22,8 +22,8 @@
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><router-link to="/dashboard">Dashboard</router-link></li>
-        <li><a href="#">Sign In</a></li>
-        <li><a href="#">Sign Up</a></li>
+        <li><router-link to="/sign-in">Sign In</router-link></li>
+        <li><router-link to="/sign-up">Sign Up</router-link></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
           <ul class="dropdown-menu">
