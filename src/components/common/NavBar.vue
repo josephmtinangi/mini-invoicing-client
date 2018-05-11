@@ -14,12 +14,14 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse navbar-ex1-collapse">
       <ul class="nav navbar-nav">
+        <li><router-link to="/">Home</router-link></li>
         <li><a href="#">Features</a></li>
         <li><a href="#">Pricing</a></li>
         <li><a href="#">About</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
+        <li><router-link to="/dashboard">Dashboard</router-link></li>
         <li><a href="#">Sign In</a></li>
         <li><a href="#">Sign Up</a></li>
         <li class="dropdown">
@@ -28,7 +30,7 @@
             <li><a href="#">Action</a></li>
             <li><a href="#">Another action</a></li>
             <li><a href="#">Something else here</a></li>
-            <li><a href="#">Separated link</a></li>
+            <li><a href="#">Sign Out</a></li>
           </ul>
         </li>
       </ul>
